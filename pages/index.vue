@@ -23,7 +23,7 @@ export default {
     } catch (e) {
       error({
         statusCode: 503,
-        message: 'Uable to fetch events at this time. Please try again.',
+        message: 'Unable to fetch events at this time. Please try again.',
       })
     }
   },
